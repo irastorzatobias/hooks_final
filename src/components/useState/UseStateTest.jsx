@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useId, useState } from "react";
 
 const UseStateTest = () => {
   const [count, setCount] = useState(0);
+  const id = useId();
 
   return (
     <div>
