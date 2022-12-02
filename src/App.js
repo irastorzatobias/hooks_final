@@ -6,6 +6,7 @@ import UseLayoutEffectTest from "./components/useLayoutEffect/UseLayoutTest";
 import UseImperativeHandleTest from "./components/useImperativeHandle/UseImperativeHandleTest";
 import CustomHookExample from "./components/customHook/CustomHookExample";
 import UseTransitionExample from "./components/useTransition/UseTransitionExample";
+import Parent from "./components/useDeferredValue/Parent";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseLayoutEffectTest/> */}
       {/* <UseImperativeHandleTest /> */}
       {/* <CustomHookExample /> */}
-      <UseTransitionExample/>
+      {/* <UseTransitionExample/> */}
+      <Parent/>
     </div>
   );
 }
